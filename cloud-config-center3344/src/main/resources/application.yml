@@ -7,10 +7,10 @@ spring:
     config:
       server:
         git:
-          uri:  填写你自己的github路径
+          uri:  https://github.com/firecode7/cloud2020.git  #GitHub上仓库的名字
           search-paths:
-            - springcloud-config
-      label: master
+            - cloud2020/config-center #搜索目录
+      label: master #读取分支
 eureka:
   client:
     service-url:
