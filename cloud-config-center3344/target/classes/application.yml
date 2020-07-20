@@ -9,7 +9,7 @@ spring:
         git:
           uri:  https://github.com/firecode7/cloud2020.git  #GitHub上仓库的名字
           search-paths:
-            - cloud2020/config/ #搜索目录
+            - cloud2020 #搜索目录
       label: master #读取分支
 eureka:
   client:
