@@ -11,7 +11,7 @@ spring:
           search-paths:
             - cloud2020 #搜索目录
       label: master #读取分支
-#rabbitmq相关配置15672是Web管理界面的端口; 5672是MQ访问的端口
+  #rabbitmq相关配置15672是Web管理界面的端口; 5672是MQ访问的端口
   rabbitmq:
     host: 192.168.177.136
     port: 5672
